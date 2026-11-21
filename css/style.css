@@ -1,0 +1,443 @@
+*{
+    margin: 0;
+    position: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+a{
+    text-decoration: none;
+}
+ul li{
+    list-style: none;
+
+}
+.container{
+    margin: 0 auto;
+    max-width: 1480px;
+}
+/* ========Header Part Start========== */
+
+#headerPart{
+    width: 100%;
+    height: 1200px;
+    background: url( ../images/bannerimg.jpeg);
+    background-repeat: no-repeat;
+    padding: 50px 0;
+    background-size:cover;
+    position: relative;
+    margin-bottom: 130px;
+}
+.header{
+    padding: 50px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    
+}
+
+.menuList ul{
+    display: flex;
+    gap: 40px;
+
+}
+.menuList ul li a{
+    font-weight: 400;
+    font-size: 20px;
+    color: #474747;
+}
+.headerRight{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 50px;
+}
+.naveBtn button{
+   background: #FD6E0A;
+    border: 2px solid #FD6E0A;
+    padding: 20px;
+    border-radius: 5px;
+
+}
+.naveBtn  button a{
+    color: #ffff;
+    font-weight: 800;
+    font-size: 20px;
+    
+}
+.naveBtn button:hover a{
+    color: #FD6E0A;
+}
+.naveBtn button:hover{
+    background-color: transparent;
+}
+.title h3{
+    margin-top: 300px;
+    color: #474747;
+    font-weight: 600;
+    font-size: 45px;
+}
+.name h1{
+    color: #181818;
+    font-weight: 800;
+    font-size: 85px;
+}
+.about p{
+    color: #757575bf;
+    line-height: 13px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    width: 585px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.hireBtn{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+.hireBtn button{
+    background: #FD6E0A;
+    border: 2px solid #FD6E0A;
+    padding: 17px;
+    border-radius: 5px;
+}
+.hireBtn button a{
+    color: #ffff;
+    font-size: 20px;
+    font-weight: 400;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.hireBtn button:hover{
+    background: transparent;
+}
+.hireBtn button:hover a{
+    color: #FD6E0A;
+}
+/* ========Header Part End========== */
+
+/* ========About Part Start====== */
+
+.aboutMe{
+    background: url(../images/AboutMe.png);
+    margin: 0 auto;
+    margin-top: 130px;
+    border-radius: 10px;
+    padding: 130px;
+    margin-bottom: 130px;
+   
+}
+.heading{
+    margin: 0 auto;
+    text-align: center;
+}
+.heading h1{
+    font-weight: 700;
+    font-size: 35px;
+    color: #181818;
+}
+.pera{
+    padding: 30px 156px;
+    text-align: center;
+}
+.pera p{
+    font-weight: 400;
+    font-size: 18px;
+    color: #757575;
+    line-height: 30px;
+}
+.inform{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+.inform .name p{
+    font-size: 20px;
+    font-weight: 400;
+    color: #757575;
+    line-height: 30px;
+}
+.inform .name h5{
+    font-size: 20px;
+    font-weight: 700;
+    color: #474747;
+    line-height: 30px;
+}
+/* ===========About Part Ens====== */
+
+/* =========I DO Part Start======= */
+
+.expHeader{
+    text-align: center;
+}
+.expHeader h1{
+    font-weight: 700;
+    font-size: 35px;
+    color: #181818;
+}
+.exppera{
+    text-align: center;
+    color: #757575;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    width: 910px;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+.skills{
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    padding-bottom: 130px;
+}
+.cardOne{
+    width: 267px;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 5px 30px rgba(0, 0, 0, 0.06);
+}
+.cardOne img{
+    padding-bottom: 30px;
+}
+.cardOne h3{
+    padding-bottom: 20px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #181818;
+}
+.cardOne p{
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+/* =========I DO Part End======= */
+
+ /* ======Summery Part Start====== */
+
+
+.expHeader{
+    text-align: center;
+}
+.expHeader h1{
+    font-weight: 700;
+    font-size: 35px;
+    color: #181818;
+}
+.exppera{
+    text-align: center;
+    color: #757575;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    width: 910px;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+.skills{
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    padding-bottom: 130px;
+}
+.cardOne{
+    width: 267px;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 5px 30px rgba(0, 0, 0, 0.06);
+}
+.cardOne img{
+    padding-bottom: 30px;
+}
+.cardOne h3{
+    padding-bottom: 20px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #181818;
+}
+.cardOne p{
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+ 
+.resumeHeader{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 113px;
+}
+.resumeleft{
+    width: 510px;
+    border-bottom: 2px solid #D1D1D1;
+}
+.resumeHeader h2{
+    font-weight: 700;
+    font-size: 35px;
+    color: #181818;
+}
+.resumeleft h2{
+    font-weight: 700;
+    font-size: 30px;
+    color: #474747;
+}
+.resumeleft h3{
+    font-weight: 700;
+    font-size: 25px;
+    color: #474747;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+.resumeleft h5{
+    font-weight: 600;
+    font-size: 20px;
+    color: #757575;
+    padding-bottom: 20px;
+}
+.resumeleft p{
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 28px;
+    color: #757575;
+    padding-bottom: 30px;
+}
+
+.resumeright{
+    width: 510px;
+    border-bottom: 2px solid #D1D1D1;
+}
+.resumeright h2{
+    font-weight: 700;
+    font-size: 30px;
+    color: #474747;
+}
+.resumeright h3{
+    font-weight: 700;
+    font-size: 25px;
+    color: #474747;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+.resumeright h5{
+    font-weight: 600;
+    font-size: 20px;
+    color: #757575;
+    padding-bottom: 20px;
+}
+.resumeright p{
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 28px;
+    color: #757575;
+    padding-bottom: 30px;
+}
+.borderless{
+    border: none;
+}
+.resumeBtn{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 113px;
+}
+/* ========Summery Part End======= */
+/* ========Footer Part Start====== */
+
+  #footerPart{
+    background: url(../images/Footer.png);
+    width: 100%;
+}
+.connectpart{
+    display: flex;
+    gap: 117px;
+}
+.connectpartleft{
+    padding-top: 130px;
+}
+.connectpartleft h3{
+    font-weight: 700;
+    font-size: 35px;
+    color: #181818;
+}
+.connectpartleft p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #474747;
+    padding-bottom: 30px;
+    padding-top: 10px;
+    width: 562px;
+}
+.lastSocialIcon{
+    display: flex;
+    gap: 24px;
+}
+.lastSocialIcon a{
+    color: #FD6E0A;
+    font-size: 24px;
+}
+.connectpartright{
+    padding-top: 130px;
+}
+.connectpartright h3{
+    font-weight: 700;
+    font-size: 35px;
+    color: #181818;
+}
+.connectpartright input{
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-left: 30px;
+    width: 460px;
+    border: none;
+    border-radius: 5px;
+}
+.secondinput{
+    padding: 24px 0;
+}
+.thirdinput textarea{
+    padding: 18px 0 0 30px;
+    width: 460px;
+    height: 180px;
+    border: none;
+    border-radius: 5px;
+}
+.connectpartright::placeholder{
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+}
+.submit button{
+    margin-top: 24px;
+    padding: 19px 40px;
+}
+.submit button a{
+    font-size: 20px;
+}
+/* ========Footer Part End====== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
