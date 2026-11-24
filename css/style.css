@@ -411,7 +411,7 @@ ul li{
     border: none;
     border-radius: 5px;
 }
-.connectpartRight::placeholder{
+.connectPartRight::placeholder{
     color: #757575;
     font-size: 16px;
     font-weight: 400;
